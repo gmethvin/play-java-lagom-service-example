@@ -6,4 +6,4 @@ Note: this does not follow Lagom conventions of having separate `api` and `impl`
 
 For service location, this example uses the [`ConfigurationServiceLocator`](https://www.lagomframework.com/documentation/1.4.x/java/ProductionOverview.html#Using-static-values-for-services-and-Cassandra-to-simulate-a-managed-runtime), which locates services based on static configuration. The service in the example does not need to locate other services, so this is just to satisfy the dependency for Lagom.
 
-Use `sbt run` or `gradle -t runPlayBinary` to run the service in dev mode.
+Use `sbt run`, `gradle -t runPlayBinary` or `mvn play2:run` to run in dev mode.
